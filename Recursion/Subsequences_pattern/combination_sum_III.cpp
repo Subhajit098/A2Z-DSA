@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// TC : O(N*N)  , SC : O(K) + O(N) 
+
 void insertCombinations(int ind,int k,int sum,int n,vector<int>&ds,vector<vector<int>>&ans){
         if(k==0 && sum==n){
             ans.push_back(ds);
